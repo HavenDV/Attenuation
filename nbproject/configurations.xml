@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>geom/io/svg/AbstractAttributeValue.h</itemPath>
+      <itemPath>geom/Angle.h</itemPath>
+      <itemPath>geom/io/svg/Attribute.h</itemPath>
+      <itemPath>geom/CVector2D.h</itemPath>
+      <itemPath>geom/Circle.h</itemPath>
+      <itemPath>geom/io/svg/Color.h</itemPath>
+      <itemPath>geom/CompoundObject.h</itemPath>
+      <itemPath>geom/io/svg/Document.h</itemPath>
+      <itemPath>geom/Ellipse.h</itemPath>
+      <itemPath>sources/FanSource.h</itemPath>
+      <itemPath>geom/io/svg/Fill.h</itemPath>
+      <itemPath>geom/Geom2D.h</itemPath>
+      <itemPath>geom/GeometricRelation.h</itemPath>
+      <itemPath>geom/io/svg/Group.h</itemPath>
+      <itemPath>geom/IViewable.h</itemPath>
+      <itemPath>geom/Line.h</itemPath>
+      <itemPath>util/NumericComparator.h</itemPath>
+      <itemPath>geom/Parser.h</itemPath>
+      <itemPath>geom/io/svg/Renderer.h</itemPath>
+      <itemPath>report/ReportHelper.h</itemPath>
+      <itemPath>geom/Ring.h</itemPath>
+      <itemPath>geom/Segment.h</itemPath>
+      <itemPath>geom/SemiCircle.h</itemPath>
+      <itemPath>geom/io/svg/Serializable.h</itemPath>
+      <itemPath>simulation/Simulation.h</itemPath>
+      <itemPath>sources/SourceBase.h</itemPath>
+      <itemPath>util/StringUtils.h</itemPath>
+      <itemPath>geom/io/svg/Stroke.h</itemPath>
+      <itemPath>geom/io/svg/Style.h</itemPath>
+      <itemPath>report/chart/SvgChart.h</itemPath>
+      <itemPath>geom/io/svg/SvgDocument.h</itemPath>
+      <itemPath>geom/io/svg/SvgElement.h</itemPath>
+      <itemPath>util/SvgFile.h</itemPath>
+      <itemPath>geom/io/svg/SvgLine.h</itemPath>
+      <itemPath>geom/io/svg/SvgPoint.h</itemPath>
+      <itemPath>geom/io/svg/SvgPolyline.h</itemPath>
+      <itemPath>geom/io/svg/SvgText.h</itemPath>
+      <itemPath>geom/TestPhantom.h</itemPath>
+      <itemPath>geom/io/svg/Transformation.h</itemPath>
+      <itemPath>util/VectorHelper.h</itemPath>
+      <itemPath>util/svg/simple_svg.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="rude" displayName="rude" projectFiles="true">
+        <itemPath>rude/AbstractData.cpp</itemPath>
+        <itemPath>rude/AbstractData.h</itemPath>
+        <itemPath>rude/AbstractOrganiser.cpp</itemPath>
+        <itemPath>rude/AbstractOrganiser.h</itemPath>
+        <itemPath>rude/AbstractParser.cpp</itemPath>
+        <itemPath>rude/AbstractParser.h</itemPath>
+        <itemPath>rude/AbstractWriter.cpp</itemPath>
+        <itemPath>rude/AbstractWriter.h</itemPath>
+        <itemPath>rude/Base64Encoder.cpp</itemPath>
+        <itemPath>rude/Base64Encoder.h</itemPath>
+        <itemPath>rude/Comment.cpp</itemPath>
+        <itemPath>rude/Comment.h</itemPath>
+        <itemPath>rude/ConfigImpl.cpp</itemPath>
+        <itemPath>rude/ConfigImpl.h</itemPath>
+        <itemPath>rude/DataLine.cpp</itemPath>
+        <itemPath>rude/DataLine.h</itemPath>
+        <itemPath>rude/File.cpp</itemPath>
+        <itemPath>rude/File.h</itemPath>
+        <itemPath>rude/KeyValue.cpp</itemPath>
+        <itemPath>rude/KeyValue.h</itemPath>
+        <itemPath>rude/ParserJuly2004.cpp</itemPath>
+        <itemPath>rude/ParserJuly2004.h</itemPath>
+        <itemPath>rude/RealOrganiser.cpp</itemPath>
+        <itemPath>rude/RealOrganiser.h</itemPath>
+        <itemPath>rude/Section.cpp</itemPath>
+        <itemPath>rude/Section.h</itemPath>
+        <itemPath>rude/WhiteSpace.cpp</itemPath>
+        <itemPath>rude/WhiteSpace.h</itemPath>
+        <itemPath>rude/Writer.cpp</itemPath>
+        <itemPath>rude/Writer.h</itemPath>
+        <itemPath>rude/config.cpp</itemPath>
+        <itemPath>rude/config.h</itemPath>
+      </logicalFolder>
+      <itemPath>geom/Angle.cpp</itemPath>
+      <itemPath>geom/CVector2D.cpp</itemPath>
+      <itemPath>geom/Circle.cpp</itemPath>
+      <itemPath>geom/CompoundObject.cpp</itemPath>
+      <itemPath>geom/Ellipse.cpp</itemPath>
+      <itemPath>sources/FanSource.cpp</itemPath>
+      <itemPath>geom/GeometricRelation.cpp</itemPath>
+      <itemPath>geom/Line.cpp</itemPath>
+      <itemPath>util/NumericComparator.cpp</itemPath>
+      <itemPath>geom/Parser.cpp</itemPath>
+      <itemPath>report/ReportHelper.cpp</itemPath>
+      <itemPath>geom/Ring.cpp</itemPath>
+      <itemPath>geom/Segment.cpp</itemPath>
+      <itemPath>geom/SemiCircle.cpp</itemPath>
+      <itemPath>simulation/Simulation.cpp</itemPath>
+      <itemPath>sources/SourceBase.cpp</itemPath>
+      <itemPath>util/StringUtils.cpp</itemPath>
+      <itemPath>report/chart/SvgChart.cpp</itemPath>
+      <itemPath>geom/io/svg/SvgDocument.cpp</itemPath>
+      <itemPath>util/SvgFile.cpp</itemPath>
+      <itemPath>geom/TestPhantom.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>rude</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+      </compileType>
+      <item path="geom/Angle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Angle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/CVector2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/CVector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Circle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Circle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/CompoundObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/CompoundObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Ellipse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Ellipse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Geom2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/GeometricRelation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/GeometricRelation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/IViewable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Line.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Ring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Ring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Segment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/SemiCircle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/SemiCircle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/TestPhantom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/TestPhantom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/AbstractAttributeValue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="geom/io/svg/Attribute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Document.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Fill.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Serializable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Stroke.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgDocument.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgDocument.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgPoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgPolyline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgText.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Transformation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/ReportHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/ReportHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="report/chart/SvgChart.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/chart/SvgChart.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractOrganiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractOrganiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractWriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractWriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Base64Encoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Base64Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Comment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Comment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/ConfigImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/ConfigImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/DataLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/DataLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/KeyValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/KeyValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/ParserJuly2004.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/ParserJuly2004.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/RealOrganiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/RealOrganiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/WhiteSpace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/WhiteSpace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Writer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Writer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="simulation/Simulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="simulation/Simulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/FanSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/FanSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/SourceBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/SourceBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/NumericComparator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/NumericComparator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/StringUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/StringUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/SvgFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/SvgFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/VectorHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="geom/Angle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Angle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/CVector2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/CVector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Circle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Circle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/CompoundObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/CompoundObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Ellipse.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Ellipse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Geom2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/GeometricRelation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/GeometricRelation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/IViewable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Line.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Ring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Ring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/Segment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/SemiCircle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/SemiCircle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/TestPhantom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/TestPhantom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/AbstractAttributeValue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="geom/io/svg/Attribute.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Document.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Fill.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Group.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Serializable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Stroke.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgDocument.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgDocument.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgPoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgPolyline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/SvgText.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geom/io/svg/Transformation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/ReportHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/ReportHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="report/chart/SvgChart.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="report/chart/SvgChart.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractOrganiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractOrganiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/AbstractWriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/AbstractWriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Base64Encoder.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Base64Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Comment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Comment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/ConfigImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/ConfigImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/DataLine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/DataLine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/KeyValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/KeyValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/ParserJuly2004.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/ParserJuly2004.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/RealOrganiser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/RealOrganiser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/WhiteSpace.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/WhiteSpace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/Writer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/Writer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rude/config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="rude/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="simulation/Simulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="simulation/Simulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/FanSource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/FanSource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sources/SourceBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sources/SourceBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/NumericComparator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/NumericComparator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/StringUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/StringUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/SvgFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="util/SvgFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="util/VectorHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

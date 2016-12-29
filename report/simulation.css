@@ -1,0 +1,19 @@
+
+circle.scanned-area {
+	fill:none; 
+	stroke:black; 
+	stroke-width:1.0; 
+}
+line.inner-segment {	
+	stroke:red; 
+	stroke-width:2.0; 
+}
+line.outer-segment {	
+	stroke:black; 
+	stroke-width:1.0; 
+}
+.phantom {	
+	fill:none; 
+	stroke:black; 
+	stroke-width:1.0;   
+} 

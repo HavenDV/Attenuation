@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.Row
+		{
+			display: table;
+			
+			table-layout: fixed; /*Optional*/
+			border-spacing: 10px; /*Optional*/
+		}
+		.Column
+		{
+			display: table-cell;
+			vertical-align: top;
+		}
+	</style>
+</head>
+<body>
+
+
+<script>
+function onBetaChanged() {
+    var beta = document.getElementById("beta_slider").value;
+	var z_coord = document.getElementById("z_coord_slider").value;
+    document.getElementById("beta_value").innerHTML = beta;
+	document.getElementById("z_coord").innerHTML = z_coord;
+	var svgImg = document.getElementById("svg_img");
+	svgImg.src = "./data/img_" + z_coord + "_" + beta + ".svg";
+	
+	
+	
+
+	
+
+}
+
+
+
+function onZChanged() {
+    var beta = document.getElementById("beta_slider").value;
+	var z_coord = document.getElementById("z_coord_slider").value;
+    document.getElementById("beta_value").innerHTML = beta;
+	document.getElementById("z_coord").innerHTML = z_coord;
+	var svgImg = document.getElementById("svg_img");
+	svgImg.src = "./data/img_" + z_coord + "_" + beta + ".svg";
+	
+	var chart1 = document.getElementById("chart_length");
+	chart1.src = "./data/chart_length_" + z_coord + ".svg";
+	
+	var chart2 = document.getElementById("chart_atten");
+	chart2.src = "./data/chart_atten_" + z_coord + ".svg";
+	
+}
+
+
+
+
+</script>
+
+
+
+
+<div class="Row">
+	<div class="Column" >
+	
+		<div class="Row">
+
+			<div class="Column">
+				<label for="beta_value">Source position: </label>
+			</div>
+			<div class="Column">
+				<div id="beta_value" style="width: 20px;">0</div>
+			</div>
+			<div class="Column">
+				<input type="range" id="beta_slider" value="0" min="0" max="%max_angle%" step="%angular_step%" style="width: 600px; " oninput="onBetaChanged()"></input>
+			</div>
+		</div>
+		<div class="Row">
+			<div class="Column">
+				<label for="z_coord">Slice (Z coord): </label>
+			</div>
+			<div class="Column">
+				<div id="z_coord" style="width: 20px;">0</div>
+			</div>
+			<div class="Column">
+				<input type="range" id="z_coord_slider" value="0" min="0" max="%max_height%" step="%height_step%" style="width: 600px; " oninput="onZChanged()"></input>
+			</div>
+			
+		</div>
+		
+		<div class="Row">
+			<div class="Column">
+				<img id="chart_length" width="410" height="410" src="./data/chart_length_0.svg" >
+			</div>
+		</div>
+		
+		<div class="Row">
+			<div class="Column">
+				<img id="chart_atten" width="410" height="410" src="./data/chart_atten_0.svg" >
+			</div>
+		</div>
+	</div>
+	<div class="Column">
+		<img id="svg_img" height="900" width="900"  src="./data/img_0_0.svg" >
+		<!--<object id="svg_img" style="overflow:hidden; width: 920px; height: 920px" data="./data/img_0_0.svg" type="image/svg+xml" />-->
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

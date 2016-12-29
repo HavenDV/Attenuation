@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F96448F2-BA4F-4F44-A921-B3B771437AA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="geom\Angle.cpp" />
+    <ClCompile Include="geom\Circle.cpp" />
+    <ClCompile Include="geom\CompoundObject.cpp" />
+    <ClCompile Include="geom\CVector2D.cpp" />
+    <ClCompile Include="geom\Ellipse.cpp" />
+    <ClCompile Include="geom\GeometricRelation.cpp" />
+    <ClCompile Include="geom\io\svg\SvgDocument.cpp" />
+    <ClCompile Include="geom\Line.cpp" />
+    <ClCompile Include="geom\Parser.cpp" />
+    <ClCompile Include="geom\Ring.cpp" />
+    <ClCompile Include="geom\Segment.cpp" />
+    <ClCompile Include="geom\SemiCircle.cpp" />
+    <ClCompile Include="geom\TestPhantom.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="report\chart\SvgChart.cpp" />
+    <ClCompile Include="report\ReportHelper.cpp" />
+    <ClCompile Include="rude\AbstractData.cpp" />
+    <ClCompile Include="rude\AbstractOrganiser.cpp" />
+    <ClCompile Include="rude\AbstractParser.cpp" />
+    <ClCompile Include="rude\AbstractWriter.cpp" />
+    <ClCompile Include="rude\Base64Encoder.cpp" />
+    <ClCompile Include="rude\Comment.cpp" />
+    <ClCompile Include="rude\config.cpp" />
+    <ClCompile Include="rude\ConfigImpl.cpp" />
+    <ClCompile Include="rude\DataLine.cpp" />
+    <ClCompile Include="rude\File.cpp" />
+    <ClCompile Include="rude\KeyValue.cpp" />
+    <ClCompile Include="rude\ParserJuly2004.cpp" />
+    <ClCompile Include="rude\RealOrganiser.cpp" />
+    <ClCompile Include="rude\Section.cpp" />
+    <ClCompile Include="rude\WhiteSpace.cpp" />
+    <ClCompile Include="rude\Writer.cpp" />
+    <ClCompile Include="simulation\Simulation.cpp" />
+    <ClCompile Include="sources\FanSource.cpp" />
+    <ClCompile Include="sources\SourceBase.cpp" />
+    <ClCompile Include="util\NumericComparator.cpp" />
+    <ClCompile Include="util\StringUtils.cpp" />
+    <ClCompile Include="util\SvgFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".dep.inc" />
+    <None Include="report\attenuation_report_template.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geom\Angle.h" />
+    <ClInclude Include="geom\Circle.h" />
+    <ClInclude Include="geom\CompoundObject.h" />
+    <ClInclude Include="geom\CVector2D.h" />
+    <ClInclude Include="geom\Ellipse.h" />
+    <ClInclude Include="geom\Geom2D.h" />
+    <ClInclude Include="geom\GeometricRelation.h" />
+    <ClInclude Include="geom\io\svg\AbstractAttributeValue.h" />
+    <ClInclude Include="geom\io\svg\Attribute.h" />
+    <ClInclude Include="geom\io\svg\Color.h" />
+    <ClInclude Include="geom\io\svg\Document.h" />
+    <ClInclude Include="geom\io\svg\Fill.h" />
+    <ClInclude Include="geom\io\svg\Group.h" />
+    <ClInclude Include="geom\io\svg\Renderer.h" />
+    <ClInclude Include="geom\io\svg\Serializable.h" />
+    <ClInclude Include="geom\io\svg\simple_svg.hpp" />
+    <ClInclude Include="geom\io\svg\Stroke.h" />
+    <ClInclude Include="geom\io\svg\Style.h" />
+    <ClInclude Include="geom\io\svg\SvgDocument.h" />
+    <ClInclude Include="geom\io\svg\SvgElement.h" />
+    <ClInclude Include="geom\io\svg\SvgLine.h" />
+    <ClInclude Include="geom\io\svg\SvgPoint.h" />
+    <ClInclude Include="geom\io\svg\SvgPolyline.h" />
+    <ClInclude Include="geom\io\svg\SvgText.h" />
+    <ClInclude Include="geom\io\svg\Transformation.h" />
+    <ClInclude Include="geom\IViewable.h" />
+    <ClInclude Include="geom\Line.h" />
+    <ClInclude Include="geom\Parser.h" />
+    <ClInclude Include="geom\Ring.h" />
+    <ClInclude Include="geom\Segment.h" />
+    <ClInclude Include="geom\SemiCircle.h" />
+    <ClInclude Include="geom\TestPhantom.h" />
+    <ClInclude Include="report\chart\SvgChart.h" />
+    <ClInclude Include="report\ReportHelper.h" />
+    <ClInclude Include="rude\AbstractData.h" />
+    <ClInclude Include="rude\AbstractOrganiser.h" />
+    <ClInclude Include="rude\AbstractParser.h" />
+    <ClInclude Include="rude\AbstractWriter.h" />
+    <ClInclude Include="rude\Base64Encoder.h" />
+    <ClInclude Include="rude\Comment.h" />
+    <ClInclude Include="rude\config.h" />
+    <ClInclude Include="rude\ConfigImpl.h" />
+    <ClInclude Include="rude\DataLine.h" />
+    <ClInclude Include="rude\File.h" />
+    <ClInclude Include="rude\KeyValue.h" />
+    <ClInclude Include="rude\ParserJuly2004.h" />
+    <ClInclude Include="rude\RealOrganiser.h" />
+    <ClInclude Include="rude\Section.h" />
+    <ClInclude Include="rude\WhiteSpace.h" />
+    <ClInclude Include="rude\Writer.h" />
+    <ClInclude Include="simulation\Simulation.h" />
+    <ClInclude Include="sources\FanSource.h" />
+    <ClInclude Include="sources\SourceBase.h" />
+    <ClInclude Include="util\NumericComparator.h" />
+    <ClInclude Include="util\StringUtils.h" />
+    <ClInclude Include="util\SvgFile.h" />
+    <ClInclude Include="util\VectorHelper.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

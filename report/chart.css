@@ -1,0 +1,72 @@
+polyline {
+	stroke:#000000; 
+  	stroke-width:2.0; 
+	fill:none;
+}
+
+line {
+	stroke:#000000; 
+  	stroke-width:1.0; 
+}
+
+line.gridline-y {
+	stroke:#A0A0A0; 
+  	stroke-width:0.5; 
+	stroke-dasharray: 2.5;
+}
+
+line.gridline-x {
+	stroke:#A0A0A0; 
+  	stroke-width:0.5; 
+	stroke-dasharray: 2.5;
+}
+
+text.label-x{
+	text-anchor: middle;
+	font-size: 14px;
+}
+
+text.label-y{
+	text-anchor: end;
+	font-size: 14px;
+}
+
+polyline.graph1{
+	stroke: black;
+}
+
+polyline.graph2{
+	stroke: red;	
+}
+
+polyline.graph3{
+	stroke: green;
+}
+
+polyline.graph4{
+	stroke: blue;
+}
+
+polyline.graph5{
+	stroke: magenta;
+}
+
+polyline.graph6{
+	stroke: brown;
+}
+
+polyline.graph7{
+	stroke: lime;
+}
+
+polyline.graph8{
+	stroke: Orange;
+}
+
+polyline.graph9{
+	stroke: Purple;
+}
+
+polyline.graph10{
+	stroke: yellow;
+}
